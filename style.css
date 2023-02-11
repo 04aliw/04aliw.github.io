@@ -1,0 +1,18 @@
+body{
+  background-color:royalblue;
+}
+h1{
+  font-family: cursive;
+    color:black;
+
+}
+p{
+    color:black;
+    font-family:cursive;
+    font-size: 20px;
+    text-align: justify;
+}
+a:hover{
+  color:black;
+  background-color:aquamarine;
+}
