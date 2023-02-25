@@ -1,18 +1,49 @@
-body{
-  background-color:royalblue;
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
 }
-h1{
-  font-family: cursive;
-    color:black;
 
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
 }
-p{
-    color:black;
-    font-family:cursive;
-    font-size: 20px;
-    text-align: justify;
+
+section {
+	margin-bottom: 40px;
 }
-a:hover{
-  color:black;
-  background-color:aquamarine;
+
+h2 {
+	margin-top: 0;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+li {
+	margin-right: 20px;
+	margin-bottom: 20px;
+	max-width: 300px;
+}
+
+img {
+	max-width: 100%;
+}
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 600px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 20px;
+    }
 }
