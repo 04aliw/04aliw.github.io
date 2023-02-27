@@ -38,7 +38,7 @@ const hairstyles = [
 	{
 		name: 'Curls',
 		length: 'Long',
-		image: 'long2.webp',
+		image: 'long22.jpg',
         price: 330
 	},
 	{
