@@ -36,6 +36,11 @@ li {
 img {
 	max-width: 100%;
 }
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+  }
 @media screen and (max-width: 1024px) {
     .container {
         max-width: 600px;
